@@ -1,0 +1,25 @@
+{
+  "name": "electro-updates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.9",
+    "electron-builder": "^21.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/yaslochi/electronTest.git"
+  },
+  "dependencies": {
+    "electron-updater": "^4.2.0"
+  }
+}
