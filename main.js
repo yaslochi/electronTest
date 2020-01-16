@@ -20,8 +20,8 @@ function createWindow () {
 
 app.on('ready', () => {
     //for updates
-    autoUpdater.checkForUpdatesAndNotify();
     createWindow();
+    autoUpdater.checkForUpdatesAndNotify();
 });
 
 app.on('window-all-closed', function () {
