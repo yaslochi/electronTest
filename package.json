@@ -1,6 +1,6 @@
 {
   "name": "electro-updates",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Nueva version",
   "main": "main.js",
   "scripts": {
